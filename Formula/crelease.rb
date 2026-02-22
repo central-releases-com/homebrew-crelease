@@ -1,15 +1,15 @@
-class Crelease < Formula
+class Ucrelease < Formula
   desc "Central Releases CLI"
   homepage "https://central-releases.com"
-  url "https://github.com/central-releases-com/homebrew-crelease/releases/download/v0.0.2/crelease-0.0.2.tar.gz"
-  sha256 "287b6f3cf1c5c4ef6cf0ed4a5ba21c29c8095c819f5ae347b50f01d018054822"
-  version "0.0.2"
+  url "https://github.com/central-releases-com/homebrew-crelease/releases/download/v1.0.0/crelease-1.0.0.tar.gz"
+  sha256 "4c52017802f793fa5c5edb20d7638649373273f3a6b55dd13585dd1cce6e2b53"
+  version "1.0.0"
 
   def install
     bin.install "crelease"
   end
 
   test do
-    assert_match "0.0.2", shell_output("#{bin}/crelease --version")
+    assert_match "1.0.0", shell_output("\#{bin}/crelease --version")
   end
 end
