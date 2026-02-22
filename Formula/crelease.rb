@@ -1,4 +1,4 @@
-class Ucrelease < Formula
+class Crelease < Formula
   desc "Central Releases CLI"
   homepage "https://central-releases.com"
   url "https://github.com/central-releases-com/homebrew-crelease/releases/download/v1.0.0/crelease-1.0.0.tar.gz"
